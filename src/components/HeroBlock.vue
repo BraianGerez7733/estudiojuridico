@@ -39,6 +39,7 @@
   text-align: center;
   padding: 40px 20px;
 }
+
 .overlay {
   position: absolute;
   top: 0;
@@ -47,21 +48,25 @@
   bottom: 0;
   background: rgba(0, 0, 0, 0.5);
 }
+
 .hero-content {
   position: relative;
   max-width: 800px;
   z-index: 1;
 }
+
 .hero-title {
   font-size: 2.5rem;
   margin-bottom: 16px;
   color: var(--primary-color);
 }
+
 .hero-text {
   font-size: 1.1rem;
   margin-bottom: 24px;
   line-height: 1.6;
 }
+
 .cta-button {
   padding: 14px 28px;
   background-color: var(--primary-color);
@@ -73,6 +78,7 @@
   transition: filter 0.3s;
   text-decoration: none;
 }
+
 .cta-button:hover {
   filter: brightness(0.9);
 }
