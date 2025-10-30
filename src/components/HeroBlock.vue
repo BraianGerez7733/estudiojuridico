@@ -19,7 +19,7 @@
         rel="noopener noreferrer"
         class="cta-button"
       >
-        💬 Agendar consulta gratuita
+        Agendar consulta gratuita
       </a>
     </div>
   </section>
