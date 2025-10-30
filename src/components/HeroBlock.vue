@@ -12,18 +12,18 @@
         te brindamos asesoramiento legal integral y acompañamiento en todo el
         proceso.
       </p>
-      <button class="cta-button" @click="goToApps">Agendar consulta gratuita</button>
+
+      <a
+        href="https://wa.me/5492964540752?text=Hola%20quiero%20agendar%20una%20consulta%20gratuita"
+        target="_blank"
+        rel="noopener noreferrer"
+        class="cta-button"
+      >
+        💬 Agendar consulta gratuita
+      </a>
     </div>
   </section>
 </template>
-
-<script setup>
-import { useRouter } from 'vue-router';
-const router = useRouter();
-function goToApps() {
-  router.push('/aplicaciones');
-}
-</script>
 
 <style scoped>
 .hero {
@@ -71,6 +71,7 @@ function goToApps() {
   font-size: 1rem;
   cursor: pointer;
   transition: filter 0.3s;
+  text-decoration: none;
 }
 .cta-button:hover {
   filter: brightness(0.9);
